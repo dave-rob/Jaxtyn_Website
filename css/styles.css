@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(143, 201, 255);
+}
+/* NAVBAR */
+nav {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+nav a:hover {
+  background-color: rgb(116, 116, 241);
+}
+.navbar.scrolled {
+  background-color: rgb(116, 116, 241);
+  transition: background 500ms;
+}
+/*SECTION ONE*/
+#section-one h1 {
+  color: rgb(59, 123, 219);
+  font-family: "Twinkle Star", "Oswald";
+  font-weight:bold;
+  padding-top:4rem;
+  font-size: 4rem;
+}
+#section-one span{
+  color:rgb(247, 247, 247);
+  font-weight:100;
+}
+#section-one p {
+  line-height:2;
+  font-weight:400;
+  letter-spacing: 1px;
+  color:rgb(89, 89, 228);
+  font-size: 1.2rem;
+}
+.bottle {
+  width: 5rem;
+  height: 5rem;
+  margin-top:2rem;
+  margin-bottom:2rem;
+}
+/* SECTION TWO */
+#section-two h1 {
+  color: white;
+  font-family: "Twinkle Star", "Oswald";
+  font-weight:bold;
+  padding-top:4rem;
+  font-size: 4rem;
+}
+#section-two span{
+  color:rgb(247, 247, 247);
+  font-weight:100;
+}
+#section-two p {
+  line-height:2;
+  font-weight:400;
+  letter-spacing: 1px;
+  color:rgb(89, 89, 228);
+  font-size: 1.2rem;
+}
+/* SECTION THREE */
+#section-three h1 {
+  color: rgb(59, 123, 219);
+  font-family: "Twinkle Star", "Oswald";
+  font-weight:bold;
+  padding-top:4rem;
+  font-size: 4rem;
+}
+#section-three span{
+  color:rgb(247, 247, 247);
+  font-weight:100;
+}
+#section-three p {
+  line-height:2;
+  font-weight:400;
+  letter-spacing: 1px;
+  color:rgb(89, 89, 228);
+  font-size: 1.2rem;
+}
+/* SECTION FOUR */
+#section-four h1 {
+  color: white;
+  font-family: "Twinkle Star", "Oswald";
+  font-weight:bold;
+  padding-top:4rem;
+  font-size: 4rem;
+}
+#section-four span{
+  color:rgb(247, 247, 247);
+  font-weight:100;
+}
+#section-four p {
+  line-height:2;
+  font-weight:400;
+  letter-spacing: 1px;
+  color:rgb(89, 89, 228);
+  font-size: 1.2rem;
+}
+
+@media (max-width:990px){
+  /* SECTION ONE */
+  #section-one h1 {
+    font-size: 3rem;
+  }
+  #section-one p {
+    font-size: 1rem;
+  }
+  /* SECTION TWO */
+  #section-two h1 {
+    font-size: 3rem;
+  }
+  #section-two p {
+    font-size: 1rem;
+  }
+  /* SECTION THREE */
+  #section-three h1 {
+    font-size: 3rem;
+  }
+  #section-three p {
+    font-size: 1rem;
+  }
+  /* SECTION FOUR */
+  #section-four h1 {
+    font-size: 3rem;
+  }
+  #section-four p {
+    font-size: 1rem;
+  }
+}
+
